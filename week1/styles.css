@@ -436,4 +436,11 @@ footer {
     .none {
         display: none;
     }
+    .card-right {
+        font-size: 10px;
+    }
+
+    .card-right p {
+        margin-bottom: 5px;
+    }
 }
