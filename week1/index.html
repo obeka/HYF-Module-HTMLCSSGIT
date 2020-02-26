@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/974bac5b8a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <span id="name">Ömer Kılıç</span>
+        <nav>
+            <ul id="menu">
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#skills-bar">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <article id="about">
+        <div class="card">
+            <div class="card-left">
+                <img src="img/me.jpg" alt="">
+            </div>
+            <div class="card-right">
+                <h2>Ömer Kılıç</h2>
+                <p>Programmer / Web Designer</p>
+
+                <h2>Phone</h2>
+                <p>+3168724825</p>
+
+                <h2>Email</h2>
+                <p>omerbkk06@gmail.com</p>
+
+                <h2 class="none">Address</h2>
+                <p class="none">Koningstraat 5, Ter Apel, Netherlands</p>
+            </div>
+        </div>
+    </article>
+
+    <div class="container">
+
+        <article id="info">
+            <div class="typewriter">
+                <h1 class="typewriter-text"><i class="fas fa-code"></i> Hi, I'm Ömer <i class="fas fa-code"></i> </h1>
+            </div>
+            <p> I am a web developer and a tech geek. What makes a web site unique is the idea behind it. Come and join
+                me to see the brand new ideas.</p>
+        </article>
+
+        <hr id="experience">
+
+        <article class="flex-card">
+            <h2 class="banner">Experience</h2>
+            <div>
+                <div class="experience">
+                    <div class="company">
+                        <h3>Freelancer</h3>
+                        <p>I have dozens of clients who are happy with their web sites.
+                            We are all together a huge family.
+                        </p>
+                    </div>
+                    <div class="dotted"></div>
+                    <span class="years">2017 - now</span>
+                </div>
+                <div class="experience">
+                    <div class="company">
+                        <h3>SomeCompany Co. / Front-end Developer</h3>
+                        <p>I was responsible for building the ‘client-side’ of web applications. My duty was
+                            to translate company and customer needs into functional and appealing interactive
+                            applications.</p>
+                    </div>
+                    <div class="dotted"></div>
+                    <span class="years">2015 - 2017</span>
+                </div>
+                <div class="experience">
+                    <div class="company">
+                        <h3>ακρόπολη / Front-end Intern</h3>
+                        <p>Here was the place where I became an equipped developer.
+                            During my internship, I challenged lots of difficult tasks.
+                        </p>
+                    </div>
+                    <div class="dotted"></div>
+                    <span class="years">2014 - 2015</span>
+                </div>
+            </div>
+        </article>
+
+        <hr id="education">
+
+        <article class="flex-card">
+            <h2 class="banner">Education</h2>
+            <div>
+
+                <div class="experience">
+                    <span class="years">2020 - now</span>
+                    <div class="dotted2"></div>
+                    <div class="company2">
+                        <img src="img/hyf.jpg" alt="hack your future logo" id="hyf">
+                        <div class="school">
+                            <h3> Hack Your Future</h3>
+                            <p>Front-end Developer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience">
+                    <span class="years">2010 - 2014</span>
+                    <div class="dotted2"></div>
+                    <div class="company2">
+                        <img src="img/hacettepe.jpg" alt="hacettepe university logo" id="hacettepe">
+                        <div class="school">
+                            <h3>Hacettepe University / Turkey</h3>
+                            <p>American Culture And Literature</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+        <hr id="skills-bar">
+
+        <article class="frame-container">
+            <h2 class="banner">Skills</h2>
+            <ul id="skills">
+                <li><i class="fab fa-html5"></i>
+                    <p>HTML5</p>
+                </li>
+                <li><i class="fab fa-css3-alt"></i>
+                    <p>CSS3</p>
+                </li>
+                <li><i class="fab fa-js-square"></i>
+                    <p>JavaScript</p>
+                </li>
+                <li><i class="fab fa-node"></i>
+                    <p>node.js</p>
+                </li>
+                <li><i class="fas fa-database"></i>
+                    <p>mongoDB</p>
+                </li>
+                <li><i class="fab fa-google"></i>
+                    <p>firebase</p>
+                </li>
+                <li><i class="fab fa-vuejs"></i>
+                    <p>vue.js</p>
+                </li>
+                <li><i class="fab fa-react"></i>
+                    <p>React.js</p>
+                </li>
+            </ul>
+        </article>
+
+        <hr id="contact">
+
+        <article class="frame-container">
+            <h2 class="banner">Contact Me</h2>
+            <div class="contact-container">
+
+                <div class="form-container">
+                    <form>
+                        <div id="input-container">
+                            <input type="text" class="text-inputs" placeholder="Name">
+                            <input type="email" name="" class="text-inputs" placeholder="E-mail">
+                        </div>
+                        <input type="text" class="input-wide" placeholder="Subject">
+                        <textarea name="" class="input-wide" cols="30" rows="10" placeholder="Your Message"></textarea>
+                        <button>Submit</button>
+                    </form>
+                </div>
+
+                <div class="contact-right">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1771033.8260352437!2d5.478798000663915!3d52.1903627810043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b7c22a3d64f3e7%3A0xacf4fa3d805b9ff6!2sKoningstraat%205%2C%209561%20GG%20Ter%20Apel!5e0!3m2!1str!2snl!4v1582663248401!5m2!1str!2snl"
+                        width="600" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    <div id="social-media">
+                        <a href="https://github.com/obeka"><i class="fab fa-github"></i></a>
+                        <a href="https://codepen.io/obeka06"><i class="fab fa-codepen"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+    </div>
+
+    <footer>&#129489; Created by @o.be.ka / 2020. Some information on this site is imaginary. &#129489;</footer>
+
+</body>
+
+</html>
