@@ -268,7 +268,7 @@ p {
 .card-container {
   width: 95%;
   margin: auto;
-  display: flex;
+  /*display: flex;*/
   justify-content: space-between;
   flex-wrap: wrap;
   border-top: 1px solid lightgrey;
@@ -276,7 +276,7 @@ p {
 }
 
 .card {
-  width: 47%;
+ /* width: 47%;*/
   margin-top: 40px;
 }
 
@@ -505,6 +505,16 @@ footer {
 
   .branches {
     width: 48%;
+  }
+  
+  /*Cards*/
+  
+  .card-container {
+    display:flex;
+  }
+  
+  .card {
+    width:47%;
   }
 
   /*Footer*/
